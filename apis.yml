@@ -1,8 +1,24 @@
 aid: apartment-list
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apartment-list.png
 name: Apartment List
-description: Apartment List is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Apartment List is a virtual-first online rental marketplace that helps renters find
+  apartments across all 50 U.S. states. Founded in September 2011 by John Kobs and Chris Erickson,
+  the platform uses an AI-driven "Perfect Match" recommendation engine to pair renters with listings
+  based on budget, location, amenities, and lifestyle preferences, and offers a Partner Portal for
+  property managers and landlords to list and manage units. The company runs a consumer-facing search
+  experience alongside a B2B property-management side. Apartment List does not currently publish a
+  public developer API; this profile captures its public web, brand, and security surface.
 url: https://raw.githubusercontent.com/api-evangelist/apartment-list/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,9 +31,36 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Rentals
+- Real Estate
+- Housing
+- Apartments
+- Marketplace
+- PropTech
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/apartment-list-domain-security.yml
+- type: Website
+  url: https://www.apartmentlist.com/
+- type: Blog
+  url: https://www.apartmentlist.com/renter-life
+- type: Support
+  url: https://support.apartmentlist.com
+- type: TermsOfService
+  url: https://www.apartmentlist.com/about/terms
+- type: PrivacyPolicy
+  url: https://www.apartmentlist.com/about/privacy
+- type: About
+  url: https://www.apartmentlist.com/about/us
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
