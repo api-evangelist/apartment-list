@@ -43,7 +43,7 @@ modified: '2026-07-17'
 tags:
 - Company
 - Rentals
-- Real-Estate
+- Real Estate
 - Housing
 - Apartments
 - Marketplace
@@ -58,6 +58,7 @@ tags_raw:
 - Marketplace
 - PropTech
 - Consumer
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
